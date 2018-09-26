@@ -4,8 +4,6 @@ const fields2Pairs = require('../core/services/template/helpers/fields2Pairs');
 const processExtends = require('../core/services/template/preprocessor/processExtends');
 const processIncludes = require('../core/services/template/preprocessor/processIncludes');
 const proccessVariables = require('../core/services/template/preprocessor/processVariables');
-const urlJoin = require('parcel-bundler/src/utils/urlJoin');
-const isURL = require('parcel-bundler/src/utils/is-url');
 
 class BattlefrontHTMLAsset extends HTMLAsset {
 

@@ -19,5 +19,11 @@
   },
   "dependencies": {
     "parcel-bundler": "^1.6.2"
+  },
+  "devDependencies": {
+    "flat": "^4.1.0",
+    "fs": "^0.0.1-security",
+    "lodash": "^4.17.11",
+    "path": "^0.12.7"
   }
 }
