@@ -1,3 +1,3 @@
 module.exports = function (bundler) {
-    bundler.addAssetType('html', require.resolve('./src/assets/BattlefrontHTMLAsset.js'));
+    bundler.addAssetType('html', require.resolve('./src/assets/AnotherHTMLAsset.js'));
 };

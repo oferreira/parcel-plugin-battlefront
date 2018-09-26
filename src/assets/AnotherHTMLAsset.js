@@ -5,7 +5,7 @@ const processExtends = require('../core/services/template/preprocessor/processEx
 const processIncludes = require('../core/services/template/preprocessor/processIncludes');
 const proccessVariables = require('../core/services/template/preprocessor/processVariables');
 
-class BattlefrontHTMLAsset extends HTMLAsset {
+class AnotherHTMLAsset extends HTMLAsset {
 
   processSingleDependency(path, opts) {
     if (isURL(path)) {
@@ -28,4 +28,4 @@ class BattlefrontHTMLAsset extends HTMLAsset {
   }
 }
 
-module.exports = BattlefrontHTMLAsset;
+module.exports = AnotherHTMLAsset;
