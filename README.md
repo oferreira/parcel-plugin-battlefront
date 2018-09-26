@@ -9,5 +9,5 @@
 Make sure you have [installed parcel](https://parceljs.org/getting_started.html) before continuing.
 
 ```bash
-npm install --save-dev parcel-plugin-battlefront
+npm install --save-dev https://github.com/oferreira/parcel-plugin-battlefront.git
 ```    
